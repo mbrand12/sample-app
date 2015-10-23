@@ -38,6 +38,10 @@ other than putting the `--database=postgresql` in the `$ rails new sample-app`
 there is no additional configuration needed for development and test
 environments.
 
+Those commands are from:
+https://gorails.com/setup/ubuntu/14.04
+https://help.ubuntu.com/community/PostgreSQL
+
 #### [slim-rails](https://rubygems.org/gems/slim-rails)
 
 The first time I made a sample-app ( before [T10]) I noticed that just using
