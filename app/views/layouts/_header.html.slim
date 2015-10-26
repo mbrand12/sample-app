@@ -1,8 +1,8 @@
 header class="navbar navbar-fixed-top navbar-dark bg-inverse"
   div class="container"
-    = link_to "sample app", `#`, id: "logo"
+    = link_to "sample app", root_path, id: "logo"
     nav
       ul class="nav navbar-nav pull-right"
-        li class="nav-item" #{link_to 'Home', "#", class: "nav-link"}
-        li class="nav-item" #{link_to 'Help', "#", class: "nav-link"}
+        li class="nav-item" #{link_to 'Home', root_path, class: "nav-link"}
+        li class="nav-item" #{link_to 'Help', help_path, class: "nav-link"}
         li class="nav-item" #{link_to 'Log in', "#", class: "nav-link"}
