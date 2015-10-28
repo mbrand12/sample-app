@@ -38,6 +38,11 @@ other than putting the `--database=postgresql` in the `$ rails new sample-app`
 there is no additional configuration needed for development and test
 environments.
 
+Those commands are from:
+
+- https://gorails.com/setup/ubuntu/14.04
+- https://help.ubuntu.com/community/PostgreSQL
+
 #### [slim-rails](https://rubygems.org/gems/slim-rails)
 
 The first time I made a sample-app ( before [T10]) I noticed that just using
@@ -91,7 +96,35 @@ markdown:
 I don't know whether I will keep using slim in the future, but for now I am
 liking it very much.
 
+#### [boostrap](https://github.com/twbs/bootstrap-rubygem)
+
+Decided to try out Bootstrap 4 Alpha and that made the Bootstrap 3 based code
+not work as it should, which ended up to be a good opportunity to learn a
+little bit more about bootstrap rather than just copy pasting it (or in my case
+retyping it since I like to type out the code to better understand it). The
+quackit site provided a nice overview of the changes between Bootstrap 3 and 4
+that helped me update the code.
+
+Helpful resources:
+
+- http://www.quackit.com/bootstrap/bootstrap_4/tutorial/
+
+### Changelog
+
+While I don't know what use is the changelog in a rails app (in gems and
+anything that provides a public api to be used it makes more sense) I keep
+using it to get used to it.
+
+## Observations
+
+### Documentation
+
+In my previous project I have documented so that it can be generated and read
+by using [YARD]. The question that arises here is what should I document in a
+rails application?
+
 [T10]:https://github.com/mbrand12/t10
 [railstutorial]: http://rubyonrails.org/
 [slim]:http://slim-lang.com/
 [heroku]: http://www.heroku.com
+[YARD]: http://yardoc.org/

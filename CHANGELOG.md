@@ -6,6 +6,13 @@ file. This change log is based upon [keep-a-changelog]. This project adheres to
 
 ## [Unreleased]
 
+## [0.1.0] - 2015-10-28
+
+### Added
+
+- Bootstrap 4 Alpha look and feel
+- Temp sign up page
+
 ## [0.0.1] - 2015-10-23
 
 ### Added
@@ -21,3 +28,5 @@ file. This change log is based upon [keep-a-changelog]. This project adheres to
 [Semantic Versioning]: http://semver.org/
 [Unreleased]: https://github.com/mbrand12/sample-app/compare/v0.0.1...HEAD
 [0.0.1]: https://github.com/mbrand12/sample-app/compare/59d0d68...v0.0.1
+[0.1.0]: https://github.com/mbrand12/sample-app/compare/v0.0.1...v0.1.0
+
