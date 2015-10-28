@@ -17,6 +17,7 @@ See CHANGELOG.md document for a list of changes.
 
 - [pg](https://rubygems.org/gems/pg) - postgreSQL
 - [slim-rails](https://github.com/slim-template/slim) - html template language
+- [bootstrap](https://github.com/twbs/bootstrap-rubygem) - Bootstrap 4 Alpha
 
 ## License
 
