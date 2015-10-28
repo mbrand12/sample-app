@@ -39,6 +39,7 @@ class UserTest < ActiveSupport::TestCase
                             user.name@example.
                             foo@bar_baz.com
                             foo@bar+baz.com
+                            foo@bar..com
                           ]
 
     invalid_addresses.each do |invalid_address|
@@ -54,6 +55,13 @@ class UserTest < ActiveSupport::TestCase
     assert_not duplicate_user.valid?
   end
 
+  test "email database downcasing" do
+    example_mail = "EXAMPLE@example.com"
+    @user.email = example_mail
+    @user.save
+    assert_equal @user.reload.email, example_mail.downcase
+  end
+
   test "password presence " do
     @user.password = @user.password_confirmation = " " * 6
     assert_not @user.valid?
@@ -63,6 +71,4 @@ class UserTest < ActiveSupport::TestCase
     @user.password = @user.password_confirmation = "a" * 5
     assert_not @user.valid?
   end
-
-
 end
