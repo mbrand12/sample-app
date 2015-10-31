@@ -96,6 +96,42 @@ markdown:
 I don't know whether I will keep using slim in the future, but for now I am
 liking it very much.
 
+On the topic of style I decided to write slim in such was that can be more
+easily (in my opinion) read by people that don't use slim and because I read
+and understand the code faster when done this way.
+
+Example:
+
+```slim
+- if @user.errors.any?
+  #error_explanation
+    .alert.alert-danger
+      | The form contains
+      = pluralize(@user.errors.count, "error")
+    ul
+      - @user.errors.full_messages.each do |msg|
+        li = msg
+```
+
+```slim
+- if @user.errors.any?
+  div id="error_explanation"
+    div class="alert alert-danger"
+      This form contains #{ pluralize(@user.error.count, "error") }
+    ul
+      - @user.errors.full_messages.each do |msg|
+        li #{ msg }
+```
+
+So basically:
+
+- all div elements should be explicit
+- classes and ids should be separated and explicit
+- inline ruby should be in "#{}"
+- use markdown for content (paragraphs and inline links), slim for structure
+
+This will probably change in future, but for now it makes it more readable for
+me.
 #### [boostrap](https://github.com/twbs/bootstrap-rubygem)
 
 Decided to try out Bootstrap 4 Alpha and that made the Bootstrap 3 based code
