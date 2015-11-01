@@ -117,10 +117,10 @@ Example:
 - if @user.errors.any?
   div id="error_explanation"
     div class="alert alert-danger"
-      | The form contains #{ pluralize(@user.error.count, "error") }
+      | The form contains #{pluralize(@user.error.count, "error")}
     ul
       - @user.errors.full_messages.each do |msg|
-        li #{ msg }
+        li #{msg}
 ```
 
 So basically:
