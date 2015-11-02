@@ -8,6 +8,8 @@ file. This change log is based upon [keep-a-changelog]. This project adheres to
 
 ## [0.2.0] - 2015-11-02
 
+### Added
+
 - [**feature**] Sign up, users can now sign up and do nothing :)
 
 ## [0.1.0] - 2015-10-28
