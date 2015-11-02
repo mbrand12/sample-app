@@ -4,6 +4,7 @@ ruby '2.2.3'
 
 gem 'rails',        '4.2.4'
 gem 'pg',           '0.18.3'
+gem 'bcrypt',       '3.1.10'
 
 gem 'sass-rails',   '5.0.4'
 gem 'uglifier',     '2.7.2'
@@ -32,4 +33,5 @@ end
 
 group :production do
   gem 'rails_12factor', '0.0.3'
+  gem 'puma',           '2.14.0'
 end

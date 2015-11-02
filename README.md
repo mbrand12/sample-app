@@ -13,7 +13,7 @@ See CHANGELOG.md document for a list of changes.
 
 ## Notable gems used in the app
 
-**note:** see Gemfile for more
+**note:** see DEVCORE if you want to know why I used these gems
 
 - [pg](https://rubygems.org/gems/pg) - postgreSQL
 - [slim-rails](https://github.com/slim-template/slim) - html template language
