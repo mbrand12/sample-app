@@ -6,6 +6,14 @@ file. This change log is based upon [keep-a-changelog]. This project adheres to
 
 ## [Unreleased]
 
+## [0.4.0] - 2015-11-05
+
+### Added
+
+- [**feature**] Log in/out, uses can now log in and log out after sign up
+- [**feature**] Remember me, users can now chose to stay logged even if they
+                close the browser.
+
 ## [0.2.1] - 2015-11-02 [HOTFIX]
 
 ### Fixed
@@ -38,8 +46,9 @@ file. This change log is based upon [keep-a-changelog]. This project adheres to
 
 [keep-a-changelog]: https://github.com/olivierlacan/keep-a-changelog
 [Semantic Versioning]: http://semver.org/
-[Unreleased]: https://github.com/mbrand12/sample-app/compare/v0.0.1...HEAD
+[Unreleased]: https://github.com/mbrand12/sample-app/compare/v0.4.0...HEAD
 [0.0.1]: https://github.com/mbrand12/sample-app/compare/59d0d68...v0.0.1
 [0.1.0]: https://github.com/mbrand12/sample-app/compare/v0.0.1...v0.1.0
 [0.2.0]: https://github.com/mbrand12/sample-app/compare/v0.1.0...v0.2.0
 [0.2.1]: https://github.com/mbrand12/sample-app/compare/v0.2.0...v0.2.1
+[0.4.0]: https://github.com/mbrand12/sample-app/compare/v0.2.1...v0.4.0
