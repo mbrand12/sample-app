@@ -166,6 +166,23 @@ input {
   }
 }
 
+.c-checkbox {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  span {
+    font-weight: normal;
+  }
+}
+
+.c-indicator {
+  background-color: #d7d7d7;
+}
+
+#session_remember_me {
+   width: auto;
+   margin-left: 0;
+}
+
 /* miscellaneous */
 
 .debug_dump {
