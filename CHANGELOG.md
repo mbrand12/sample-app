@@ -6,11 +6,20 @@ file. This change log is based upon [keep-a-changelog]. This project adheres to
 
 ## [Unreleased]
 
+### Added
+
+- [**feature**] Edit profile, users can now edit their profile data.
+
+### Security
+
+- Non logged in users redirected when attempting to edit user's data.
+- Logged in users redirected when attempting to edit other user's data.
+
 ## [0.4.0] - 2015-11-05
 
 ### Added
 
-- [**feature**] Log in/out, uses can now log in and log out after sign up
+- [**feature**] Log in/out, uses can now log in and log out after sign up.
 - [**feature**] Remember me, users can now chose to stay logged even if they
                 close the browser.
 
