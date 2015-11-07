@@ -9,6 +9,8 @@ file. This change log is based upon [keep-a-changelog]. This project adheres to
 ### Added
 
 - [**feature**] Edit profile, users can now edit their profile data.
+- [**feature**] User list, see who else is registered.
+- [**role**] Admin, who can delete other user accounts.
 
 ### Security
 
