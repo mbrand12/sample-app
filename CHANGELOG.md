@@ -6,6 +6,8 @@ file. This change log is based upon [keep-a-changelog]. This project adheres to
 
 ## [Unreleased]
 
+## [1.1.1] - 2015-11-10
+
 ### Added
 
 - [**feature**] Forgot password, you can now request a password change and
@@ -14,6 +16,10 @@ file. This change log is based upon [keep-a-changelog]. This project adheres to
 ### Changed
 
 - Sign up, you must now activate your account via email before using it.
+
+### Fixed
+
+- User index now shows only activated users.
 
 ## [0.7.2] - 2015-11-07
 
@@ -68,10 +74,11 @@ file. This change log is based upon [keep-a-changelog]. This project adheres to
 
 [keep-a-changelog]: https://github.com/olivierlacan/keep-a-changelog
 [Semantic Versioning]: http://semver.org/
-[Unreleased]: https://github.com/mbrand12/sample-app/compare/v0.7.2...HEAD
+[Unreleased]: https://github.com/mbrand12/sample-app/compare/v1.1.1...HEAD
 [0.0.1]: https://github.com/mbrand12/sample-app/compare/59d0d68...v0.0.1
 [0.1.0]: https://github.com/mbrand12/sample-app/compare/v0.0.1...v0.1.0
 [0.2.0]: https://github.com/mbrand12/sample-app/compare/v0.1.0...v0.2.0
 [0.2.1]: https://github.com/mbrand12/sample-app/compare/v0.2.0...v0.2.1
 [0.4.0]: https://github.com/mbrand12/sample-app/compare/v0.2.1...v0.4.0
 [0.7.2]: https://github.com/mbrand12/sample-app/compare/v0.4.0...v0.7.2
+[1.1.1]: https://github.com/mbrand12/sample-app/compare/v0.7.2...v1.1.1
