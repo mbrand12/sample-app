@@ -6,6 +6,15 @@ file. This change log is based upon [keep-a-changelog]. This project adheres to
 
 ## [Unreleased]
 
+### Added
+
+- [**feature**] Forgot password, you can now request a password change and
+  you will get the link to change it via email.
+
+### Changed
+
+- Sign up, you must now activate your account via email before using it.
+
 ## [0.7.2] - 2015-11-07
 
 ### Added
