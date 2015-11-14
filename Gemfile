@@ -9,6 +9,11 @@ gem 'faker',                   '1.5.0'
 gem 'will_paginate',           '3.0.7'
 gem 'bootstrap-will_paginate', '0.0.10'
 
+
+gem 'carrierwave',             '0.10.0'
+gem 'mini_magick',             '4.3.6'
+gem 'fog',                     '2.0.0.pre.0'
+
 gem 'sass-rails',   '5.0.4'
 gem 'uglifier',     '2.7.2'
 gem 'coffee-rails', '4.1.0'
