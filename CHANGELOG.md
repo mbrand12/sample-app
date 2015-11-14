@@ -6,6 +6,13 @@ file. This change log is based upon [keep-a-changelog]. This project adheres to
 
 ## [Unreleased]
 
+## Added
+
+- [**feature**] Microposts, like posts just micro. You can create, view and
+  delete them.
+- [**feature**] Image upload, when creating microposts you can now upload a
+                picture as well.
+
 ## [1.1.1] - 2015-11-10
 
 ### Added
