@@ -56,6 +56,6 @@ ActiveRecord::Schema.define(version: 20151115095144) do
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
 
   add_foreign_key "microposts", "users"
-  add_foreign_key "relationships", "users", column: "followed_id"
-  add_foreign_key "relationships", "users", column: "follower_id"
+  add_foreign_key "relationships", "users", column: "followed_id", on_delete: :cascade
+  add_foreign_key "relationships", "users", column: "follower_id", on_delete: :cascade
 end

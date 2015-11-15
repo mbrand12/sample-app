@@ -6,8 +6,8 @@ class CreateRelationships < ActiveRecord::Migration
 
       t.timestamps null: false
     end
-    add_foreign_key :relationships, :users, column: :follower_id
-    add_foreign_key :relationships, :users, column: :followed_id
+    add_foreign_key :relationships, :users, column: :follower_id, on_delete: :cascade
+    add_foreign_key :relationships, :users, column: :followed_id, on_delete: :cascade
 
     add_index :relationships, :follower_id
     add_index :relationships, :followed_id
