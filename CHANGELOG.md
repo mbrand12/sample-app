@@ -6,6 +6,10 @@ file. This change log is based upon [keep-a-changelog]. This project adheres to
 
 ## [Unreleased]
 
+### Fixed
+
+- Gravatar size not displaying correctly.
+
 ## [1.3.1] - 2014-11-14
 
 ### Fixed
