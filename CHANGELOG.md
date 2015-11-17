@@ -6,6 +6,14 @@ file. This change log is based upon [keep-a-changelog]. This project adheres to
 
 ## [Unreleased]
 
+### Added
+
+- Follwing and unfollowing users, what it says on the tin.
+
+### Changed
+
+- Microposts by followed users now appear in your feed.
+
 ### Fixed
 
 - Gravatar size not displaying correctly.
