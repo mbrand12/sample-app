@@ -159,6 +159,18 @@ In my previous project I have documented so that it can be generated and read
 by using [YARD]. The question that arises here is what should I document in a
 rails application?
 
+## Conclusion
+
+This time I went much faster trough the tutorial and many things made much more
+sense because I had decent beginner level ruby knowledge.
+
+Currently the biggest problem is getting used to the conventions around the
+`ActiveRecord::Base` object (in this tutorial that was the `User` among other).
+
+The other is learning how to properly use the rails API (since some method
+names etc are based one the class name so it makes the search more
+problematic).
+
 [T10]:https://github.com/mbrand12/t10
 [railstutorial]: http://rubyonrails.org/
 [slim]:http://slim-lang.com/
