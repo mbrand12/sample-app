@@ -6,6 +6,20 @@ file. This change log is based upon [keep-a-changelog]. This project adheres to
 
 ## [Unreleased]
 
+## [1.5.1] 2015-11-17
+
+### Added
+
+- Follwing and unfollowing users, what it says on the tin.
+
+### Changed
+
+- Microposts by followed users now appear in your feed.
+
+### Fixed
+
+- Gravatar size not displaying correctly.
+
 ## [1.3.1] - 2014-11-14
 
 ### Fixed
@@ -89,7 +103,7 @@ file. This change log is based upon [keep-a-changelog]. This project adheres to
 
 [keep-a-changelog]: https://github.com/olivierlacan/keep-a-changelog
 [Semantic Versioning]: http://semver.org/
-[Unreleased]: https://github.com/mbrand12/sample-app/compare/v1.3.1...HEAD
+[Unreleased]: https://github.com/mbrand12/sample-app/compare/v1.5.1...HEAD
 [0.0.1]: https://github.com/mbrand12/sample-app/compare/59d0d68...v0.0.1
 [0.1.0]: https://github.com/mbrand12/sample-app/compare/v0.0.1...v0.1.0
 [0.2.0]: https://github.com/mbrand12/sample-app/compare/v0.1.0...v0.2.0
@@ -99,3 +113,4 @@ file. This change log is based upon [keep-a-changelog]. This project adheres to
 [1.1.1]: https://github.com/mbrand12/sample-app/compare/v0.7.2...v1.1.1
 [1.3.0]: https://github.com/mbrand12/sample-app/compare/v1.1.1...v1.3.0
 [1.3.1]: https://github.com/mbrand12/sample-app/compare/v1.3.0...v1.3.1
+[1.5.1]: https://github.com/mbrand12/sample-app/compare/v1.3.1...v1.5.1
