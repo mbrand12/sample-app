@@ -20,7 +20,7 @@ gem 'coffee-rails', '4.1.0'
 gem 'jquery-rails', '4.0.5'
 gem 'slim-rails',   '3.0.1'
 gem 'redcarpet',    '3.3.3'
-gem 'bootstrap',    git: 'https://github.com/twbs/bootstrap-rubygem'
+gem 'bootstrap',    '4.0.0.alpha2'
 
 gem 'turbolinks',   '2.5.3'
 gem 'jbuilder',     '2.3.2'
